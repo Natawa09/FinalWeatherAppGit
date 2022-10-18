@@ -15,7 +15,84 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Hello</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+          <form>
+            <input type="text" value="Lviv" />
+            <input type="submit" value="search" />
+          </form>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li>sunrize:6:54am</li>
+            <li>sunset:7:54pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <ul>
+            <li>Lviv</li>
+            <li>Tueasday, October 18, 2022, 18:15</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li>23 Degree</li>
+            <li>Sunny</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body" id="firstDay">
+              Monday
+              <br />
+              16°/24°<br /><i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body" id="secondDay">
+              Tuesday
+              <br />
+              18°/26°<br /><i class="fa-solid fa-sun"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body" id="thirdDay">
+              Wednesday
+              <br />
+              19°/25°<br /><i class="fa-solid fa-cloud-sun-rain"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              Thursday
+              <br />
+              17°/22°<br /><i class="fa-solid fa-cloud-sun"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              Friday
+              <br />
+              15°/21°<br /><i class="fa-solid fa-cloud-sun"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
