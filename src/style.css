@@ -1,3 +1,13 @@
-h1 {
-  color: blueviolet;
+li {
+  list-style: none;
+  color: #0a140d;
+}
+.wrapper {
+  padding: 50px;
+  border: 1px solid #356aaf;
+  border-radius: 5px;
+}
+.CityName {
+  font-size: 20px;
+  color: red;
 }
