@@ -1,13 +1,47 @@
-li {
-  list-style: none;
-  color: #0a140d;
+body {
+  font-family: "Raleway", sans-serif;
 }
+
 .wrapper {
   padding: 50px;
   border: 1px solid #356aaf;
   border-radius: 5px;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("images/background3.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-.CityName {
-  font-size: 20px;
-  color: red;
+#CityName,
+#currentWeather {
+  padding: 30px 10px 10px 10px;
+  font-size: 50px;
+  color: #2d556a;
+}
+
+#currentTime,
+#weatherStatus {
+  color: #2d556a;
+  padding: 10px 10px 10px 30px;
+}
+#CityName,
+#currentTime {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+
+#sunTime {
+  text-align: right;
+  color: #ca9139;
+  font-weight: bold;
+}
+
+#fcstDays {
+  text-align: center;
+  color: #ca9139;
+  font-weight: bold;
 }
